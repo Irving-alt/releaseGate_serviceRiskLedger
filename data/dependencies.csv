@@ -1,0 +1,13 @@
+Dependent,Dependency,CriticalityWeight
+webapp,gateway,2
+webapp,auth-api,2
+webapp,catalog,1
+billing-svc,auth-api,2
+billing-svc,gateway,1
+search-core,auth-api,1
+search-core,catalog,2
+catalog,inventory,2
+inventory,gateway,1
+notifications,auth-api,1
+analytics-pipeline,search-core,1
+analytics-pipeline,billing-svc,2
