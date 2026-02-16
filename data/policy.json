@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-02-16",
+  "ignore_future": true,
+
+  "lookback_incidents_days": 90,
+  "lookback_blocking_days": 30,
+  "aging_p1_days": 14,
+  "release_lookahead_days": 21,
+
+  "severity_weight": { "S1": 15, "S2": 7, "S3": 2 },
+  "ticket_weight": { "P0": 10, "AGING_P1": 3 },
+  "mttr_breach_weight": 2,
+
+  "debt_warn_threshold": 25,
+  "blocked_deps_threshold": 4,
+
+  "sla_minutes_by_tier": { "T0": 120, "T1": 240, "T2": 480 },
+  "third_party_sla_multiplier": 1.5,
+  "third_party_rounding": "ceil"
+}
