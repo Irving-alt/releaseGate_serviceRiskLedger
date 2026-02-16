@@ -1,0 +1,13 @@
+{
+  "services": [
+    { "service": "gateway", "tier": "T0", "owner": "Platform" },
+    { "service": "auth-api", "tier": "T0", "owner": "Identity" },
+    { "service": "billing-svc", "tier": "T0", "owner": "Payments" },
+    { "service": "catalog", "tier": "T1", "owner": "Merch" },
+    { "service": "inventory", "tier": "T1", "owner": "Supply" },
+    { "service": "search-core", "tier": "T1", "owner": "Discovery" },
+    { "service": "webapp", "tier": "T1", "owner": "Frontend" },
+    { "service": "notifications", "tier": "T2", "owner": "Engagement" },
+    { "service": "analytics-pipeline", "tier": "T2", "owner": "Data" }
+  ]
+}
