@@ -1,0 +1,26 @@
+TicketID,CreatedAt,Service,Priority,Status,Title
+TCK-2001,2026-02-10,gateway,P0,Open,Gateway crash loop
+TCK-2002,2026-02-03,gateway,P1,In Progress,Improve rate limiting
+TCK-2003,2026-01-20,gateway,P2,Blocked,Investigate intermittent 502
+TCK-2004,2026-01-15,auth-api,P1,Open,Refresh token edge case
+TCK-2005,2026-02-01,auth-api,P2,Open,Audit login logs
+TCK-2006,2026-01-28,billing-svc,P1,In Progress,Retry policy update
+TCK-2007,2026-01-10,billing-svc,P1,Blocked,Reconcile invoice mismatch
+TCK-2008,2026-02-06,billing-svc,P2,Open,Minor UI label
+TCK-2009,2026-01-05,catalog,P1,Open,Product ingestion latency
+TCK-2010,2026-02-12,catalog,P2,Open,Add new attribute
+TCK-2011,2026-01-25,inventory,P2,Open,Warehouse sync delay
+TCK-2012,2026-01-12,inventory,P1,In Progress,Vendor feed validation
+TCK-2013,2026-02-08,search-core,P2,Open,Improve stemming rules
+TCK-2014,2026-01-18,search-core,P1,Open,Shard imbalance
+TCK-2015,2026-02-14,webapp,P2,Open,Button alignment issue
+TCK-2016,2026-01-19,webapp,P1,Blocked,Session persistence bug
+TCK-2017,2026-01-22,webapp,P2,In Progress,Upgrade frontend deps
+TCK-2018,2026-02-02,notifications,P1,Open,Email template mismatch
+TCK-2019,2026-01-10,notifications,P2,Open,SMS provider metrics
+TCK-2020,2026-01-30,analytics-pipeline,P2,Open,Add lineage tags
+TCK-2021,2026-01-16,analytics-pipeline,P1,Open,Backfill job failure
+TCK-2022,2026-02-11,analytics-pipeline,P2,Done,Docs update
+TCK-2023,2026-02-05,search-core,P2,Done,Small refactor
+TCK-2024,2026-01-03,catalog,P2,Canceled,Obsolete request
+TCK-2025,2026-02-15,inventory,P2,Open,Stock threshold tuning
