@@ -1,0 +1,9 @@
+{
+  "releases": [
+    { "change_id": "CHG-3001", "service": "billing-svc", "change_type": "breaking", "risk": "high", "target_date": "2026-02-25" },
+    { "change_id": "CHG-3002", "service": "webapp", "change_type": "feature", "risk": "medium", "target_date": "2026-02-20" },
+    { "change_id": "CHG-3003", "service": "search-core", "change_type": "patch", "risk": "low", "target_date": "2026-02-28" },
+    { "change_id": "CHG-3004", "service": "catalog", "change_type": "feature", "risk": "high", "target_date": "2026-03-05" },
+    { "change_id": "CHG-3005", "service": "gateway", "change_type": "patch", "risk": "high", "target_date": "2026-03-20" }
+  ]
+}
